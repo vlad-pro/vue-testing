@@ -23,7 +23,7 @@ describe("RandomNumber", () => {
       propsData: {
         min: 200,
         max: 300
-      },
+      }
     });
     wrapper.find("button").trigger("click");
 
